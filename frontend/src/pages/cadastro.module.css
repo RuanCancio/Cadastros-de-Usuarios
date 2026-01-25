@@ -10,28 +10,6 @@ body {
     color: white;
 }
 
-.header_nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 10%;
-    padding: 1rem;
-    background-color: purple;
-    list-style-type: none;
-
-
-    & .Link {
-        color: white;
-        text-decoration: none;
-        transition: 0.2s;
-        padding-bottom: 5px;
-    }
-
-    & .Link:hover {
-        margin-bottom: 2px;
-        border-bottom: 1px solid white;
-    }
-}
-
 .insert_Data {
     width: 100vw;
     height: 80vh;

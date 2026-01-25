@@ -1,0 +1,16 @@
+.Main {
+    
+    & h1 {
+        margin: 1rem;
+        text-shadow: 3px 2px 5px rgba(161, 8, 161, 0.733);
+    }
+
+    & p {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 10px;
+        text-indent: 10px;
+        text-shadow: 2px 2px 10px rgba(203, 124, 255, 0.959);
+        max-width: 700px;
+    }
+}
