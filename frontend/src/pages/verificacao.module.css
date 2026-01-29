@@ -31,9 +31,6 @@ background-color:rgba(255, 255, 255, 0.507);
 border-radius: 10px;
 color: white;
 width: 50px;
- & img {
-    width: 30px;
- }
 }
 
 .div_icons button:hover {
