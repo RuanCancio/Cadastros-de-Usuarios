@@ -36,12 +36,6 @@ Os dados são armazenados em memória (array) para fins educacionais.
 ## Como executar o projeto
 
 ```bash
-Backend:
-cd backend
-npm install
-npm start
-Servidor rodando em http://localhost:3000
-
 Frontend:
 cd frontend
 npm install
