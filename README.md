@@ -24,10 +24,6 @@ Frontend:
 - React Router
 - CSS Modules
 
-Backend:
-- Node.js
-- Express
-- CORS
 
 Os dados são armazenados em memória (array) para fins educacionais.
 
