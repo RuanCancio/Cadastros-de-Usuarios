@@ -24,10 +24,6 @@ Frontend:
 - React Router
 - CSS Modules
 
-Backend:
-- Node.js
-- Express
-- CORS
 
 Os dados são armazenados em memória (array) para fins educacionais.
 
@@ -36,14 +32,8 @@ Os dados são armazenados em memória (array) para fins educacionais.
 ## Como executar o projeto
 
 ```bash
-Backend:
-cd backend
-npm install
-npm start
-Servidor rodando em http://localhost:3000
-
 Frontend:
 cd frontend
 npm install
 npm run dev
-Aplicação disponível em http://localhost:5173
+Aplicação disponível em http://localhost:3000
