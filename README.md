@@ -40,4 +40,4 @@ Frontend:
 cd frontend
 npm install
 npm run dev
-Aplicação disponível em http://localhost:5173
+Aplicação disponível em http://localhost:3000
