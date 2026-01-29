@@ -16,14 +16,27 @@
         }
     }
 
-    & div_icons{
-        border: 2px dashed green;
+    & .div_icons{
+        margin-left: 8%;
+        width: 30%;
         display: flex;
         flex-direction: column;
+        align-items: end;
         justify-content: space-evenly;
     }
 }
 
-.div_icons div {
-background-color:rgb(0, 110, 255);
+.div_icons button {
+background-color:rgba(255, 255, 255, 0.507);
+border-radius: 10px;
+color: white;
+width: 50px;
+ & img {
+    width: 30px;
+ }
+}
+
+.div_icons button:hover {
+    background-color: rgba(255, 255, 255, 0.37);
+    cursor: pointer;
 }
