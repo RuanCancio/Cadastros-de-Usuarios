@@ -12,14 +12,9 @@ export const Verificacao = () => {
 
   const Editar = (id) => {
     const novoNome = prompt("Novo nome:")
-    const novaidade = prompt("Nova idade:")
-    const novoemail = prompt("Novo email:")
-    const novacaracter = prompt("Novas caracteristicas:")
 
-    if (!novoNome || !novaidade || !novoemail || !novacaracter) return
-
-    const atualizados = us.map(u =>
-      u.id === id ? { ...u, nome: novoNome, idade: novaidade, email: novoemail, caracteristicas: novacaracter } : u
+      const atualizados = us.map(u =>
+      u.id === id ? { ...u, nome: novoNome}: u
     )
 
     salvarUsuarios(atualizados)
