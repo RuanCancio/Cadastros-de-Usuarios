@@ -16,16 +16,16 @@ export const Verificacao = () => {
       u.id === id
     )[0]
 
-    const novoNome = prompt("Novo nome:")
+    let novoNome = prompt("Novo nome:")
     if (novoNome === null) novoNome = ally.nome;
 
-    const novaIdade = prompt("Nova Idade:")
+    let novaIdade = prompt("Nova Idade:")
     if (novaIdade === null) novaIdade = ally.idade;
 
-    const novoEmail = prompt("Novo Email:")
+    let novoEmail = prompt("Novo Email:")
     if (novoEmail === null) novoEmail = ally.email;
 
-    const novaCarac = prompt("Novas Caracteristicas:")
+    let novaCarac = prompt("Novas Caracteristicas:")
     if (novaCarac === null) novaCarac = ally.caracteristicas;
 
     const atualizados = us.map(u =>
