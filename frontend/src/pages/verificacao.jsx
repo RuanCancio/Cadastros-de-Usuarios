@@ -11,16 +11,31 @@ export const Verificacao = () => {
   }, [])
 
   const Editar = (id) => {
-    const novoNome = prompt("Novo nome:")
 
-      const atualizados = us.map(u =>
-      u.id === id ? { ...u, nome: novoNome}: u
+    const ally = us.filter(u =>
+      u.id === id
+    )[0]
+
+    const novoNome = prompt("Novo nome:")
+    if (novoNome === null) novoNome = ally.nome;
+
+    const novaIdade = prompt("Nova Idade:")
+    if (novaIdade === null) novaIdade = ally.idade;
+
+    const novoEmail = prompt("Novo Email:")
+    if (novoEmail === null) novoEmail = ally.email;
+
+    const novaCarac = prompt("Novas Caracteristicas:")
+    if (novaCarac === null) novaCarac = ally.caracteristicas;
+
+    const atualizados = us.map(u =>
+      u.id === id ? { ...u, nome: novoNome, idade: novaIdade, email: novoEmail, caracteristicas: novaCarac } : u
     )
 
     salvarUsuarios(atualizados)
     setUs(atualizados)
   }
-  
+
   const Excluir = (id) => {
     if (!window.confirm("Deseja excluir este usuário?")) return
 
